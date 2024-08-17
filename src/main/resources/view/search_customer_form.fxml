@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchCustomerFormController">
+   <children>
+      <JFXTextField fx:id="txtSearchID" layoutX="300.0" layoutY="57.0" promptText="Search ID" />
+      <JFXButton layoutX="470.0" layoutY="57.0" onAction="#btnOnActionSearch" style="-fx-background-radius: 6px; -fx-border-radius: 6px; -fx-border-color: #3f80cc; -fx-border-width: 2px;" text="Search">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="272.0" layoutY="136.0" text="ID" />
+      <Label layoutX="271.0" layoutY="179.0" text="Name" />
+      <Label layoutX="272.0" layoutY="230.0" text="Address" />
+      <Label layoutX="270.0" layoutY="274.0" text="Number" />
+      <Label layoutX="272.0" layoutY="322.0" text="Date Of Birth" />
+      <JFXTextField fx:id="txtSearchIDV" layoutX="391.0" layoutY="132.0" prefHeight="26.0" prefWidth="164.0" />
+      <JFXTextField fx:id="txtSearchNameV" layoutX="391.0" layoutY="175.0" prefHeight="26.0" prefWidth="164.0" />
+      <JFXTextField fx:id="txtSearchAddressV" layoutX="391.0" layoutY="226.0" prefHeight="26.0" prefWidth="164.0" />
+      <JFXTextField fx:id="txtSearchNumberV" layoutX="391.0" layoutY="270.0" prefHeight="26.0" prefWidth="164.0" />
+      <JFXTextField fx:id="txtSearchDOBV" layoutX="391.0" layoutY="318.0" prefHeight="26.0" prefWidth="164.0" />
+      <Label layoutX="35.0" layoutY="71.0" text="Search Customer" textFill="#3f80cc">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="262.0" fitWidth="223.0" layoutX="26.0" layoutY="87.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/D:/ICET/yuwantha/fx/day%2004/javaFX-2024-08-12-main/javaFX-2024-08-12-main/src/main/java/img/1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
