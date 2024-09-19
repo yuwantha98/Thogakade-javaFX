@@ -7,21 +7,25 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewFormController">
+<AnchorPane prefHeight="400.0" prefWidth="941.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewFormController">
    <children>
-      <TableView fx:id="tblCustomers" layoutX="55.0" layoutY="96.0" prefHeight="240.0" prefWidth="480.0">
+      <TableView fx:id="tblCustomers" layoutX="58.0" layoutY="96.0" prefHeight="240.0" prefWidth="830.0">
         <columns>
-          <TableColumn fx:id="colId" prefWidth="75.0" text="ID" />
-          <TableColumn fx:id="colName" prefWidth="141.33334350585938" text="Name" />
-            <TableColumn fx:id="colAddress" prefWidth="136.0" text="Address" />
-            <TableColumn fx:id="colDob" prefWidth="126.66668701171875" text="DOB" />
+          <TableColumn fx:id="colId" prefWidth="76.79998016357422" text="ID" />
+          <TableColumn fx:id="colName" prefWidth="121.60000610351562" text="Name" />
+            <TableColumn fx:id="colAddress" prefWidth="120.00003051757812" text="Address" />
+            <TableColumn fx:id="colDob" prefWidth="102.39996337890625" text="DOB" />
+            <TableColumn fx:id="colSalary" prefWidth="107.99996948242188" text="Salary" />
+            <TableColumn fx:id="colCity" prefWidth="106.4000244140625" text="City" />
+            <TableColumn fx:id="colProvince" prefWidth="103.2000732421875" text="Province" />
+            <TableColumn fx:id="colPostalCode" prefWidth="94.39996337890625" text="Postal Code" />
         </columns>
       </TableView>
       <JFXButton layoutX="447.0" layoutY="353.0" onAction="#btnReloadOnAction" style="-fx-border-width: 2px; -fx-border-color: #3f80cc; -fx-border-radius: 6px; -fx-background-radius: 6px;" text="Reload">
          <font>
             <Font name="System Bold" size="14.0" />
          </font></JFXButton>
-      <Label layoutX="208.0" layoutY="32.0" text="View Customer" textFill="#3f80cc">
+      <Label layoutX="389.0" layoutY="29.0" text="View Customer" textFill="#3f80cc">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>

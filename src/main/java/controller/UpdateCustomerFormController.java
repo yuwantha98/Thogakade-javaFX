@@ -31,7 +31,7 @@ public class UpdateCustomerFormController {
         if (foundCustomer != null) {
             foundCustomer.setName(txtSearchNameU.getText());
             foundCustomer.setAddress(txtSearchAddressU.getText());
-            foundCustomer.setNumber(txtSearchNumberU.getText());
+//            foundCustomer.setNumber(txtSearchNumberU.getText());
             foundCustomer.setDob(LocalDate.parse(txtSearchDOBU.getText()));
 
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -64,7 +64,7 @@ public class UpdateCustomerFormController {
             txtSearchIDU.setText(foundCustomer.getId());
             txtSearchNameU.setText(foundCustomer.getName());
             txtSearchAddressU.setText(foundCustomer.getAddress());
-            txtSearchNumberU.setText(foundCustomer.getNumber());
+//            txtSearchNumberU.setText(foundCustomer.getNumber());
             txtSearchDOBU.setText(foundCustomer.getDob().toString());
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);

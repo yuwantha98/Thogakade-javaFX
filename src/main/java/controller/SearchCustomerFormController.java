@@ -44,7 +44,7 @@ public class SearchCustomerFormController implements Initializable {
             txtSearchIDV.setText(foundCustomer.getId());
             txtSearchNameV.setText(foundCustomer.getName());
             txtSearchAddressV.setText(foundCustomer.getAddress());
-            txtSearchNumberV.setText(foundCustomer.getNumber());
+//            txtSearchNumberV.setText(foundCustomer.getNumber());
             txtSearchDOBV.setText(foundCustomer.getDob().toString());
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);

@@ -60,16 +60,16 @@ public class AddCustomerFormController implements Initializable {
             alert.setContentText("The customer ID already exists. Please enter a unique ID.");
             alert.showAndWait();
         } else {
-            customerList.add(
-                    new Customer(
-                            txtId.getText(),
-                            txtName.getText(),
-                            txtAddress.getText(),
-                            txtNumber.getText(),
-                            cmbTitle.getValue(),
-                            dateDob.getValue()
-                    )
-            );
+//            customerList.add(
+//                    new Customer(
+//                            txtId.getText(),
+//                            txtName.getText(),
+//                            txtAddress.getText(),
+//                            txtNumber.getText(),
+//                            cmbTitle.getValue(),
+//                            dateDob.getValue()
+//                    )
+//            );
 
             txtId.setText("");
             txtName.setText("");

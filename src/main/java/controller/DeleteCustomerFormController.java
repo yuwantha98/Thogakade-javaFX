@@ -43,7 +43,7 @@ public class DeleteCustomerFormController implements Initializable {
             txtSearchIDD.setText(foundCustomer.getId());
             txtSearchNameD.setText(foundCustomer.getName());
             txtSearchAddressD.setText(foundCustomer.getAddress());
-            txtSearchNumberD.setText(foundCustomer.getNumber());
+//            txtSearchNumberD.setText(foundCustomer.getNumber());
             txtSearchDOBD.setText(foundCustomer.getDob().toString());
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);

@@ -15,7 +15,7 @@
       <JFXTextField fx:id="txtId" layoutX="66.0" layoutY="63.0" prefHeight="26.0" prefWidth="226.0" promptText="ID" />
       <JFXTextField fx:id="txtName" layoutX="159.0" layoutY="132.0" promptText="Name" />
       <JFXTextField fx:id="txtAddress" layoutX="68.0" layoutY="195.0" prefHeight="26.0" prefWidth="226.0" promptText="Address" />
-      <DatePicker fx:id="dateDob" layoutX="67.0" layoutY="338.0" prefHeight="26.0" prefWidth="226.0" promptText="DOB" style="-fx-border-width: 2px; -fx-border-color: #6d6d6d; -fx-border-radius: 2px; -fx-background-radius: 2px; -fx-background-color: white;" />
+      <DatePicker fx:id="dateDob" layoutX="67.0" layoutY="338.0" prefHeight="26.0" prefWidth="226.0" promptText="DOB" style="-fx-border-width: 1px; -fx-border-color: #6d6d6d; -fx-border-radius: 2px; -fx-background-radius: 2px; -fx-background-color: white;" />
       <ComboBox fx:id="cmbTitle" layoutX="66.0" layoutY="135.0" prefHeight="30.0" prefWidth="77.0" promptText="Title" style="-fx-border-width: 1px; -fx-background-color: white; -fx-border-color: #6d6d6d; -fx-border-radius: 2px; -fx-background-radius: 2px;" />
       <JFXButton layoutX="243.0" layoutY="401.0" onAction="#btnAddCustomerOnAction" prefHeight="25.0" prefWidth="52.0" style="-fx-border-radius: 6px; -fx-border-width: 2px; -fx-border-color: #3f80cc; -fx-background-radius: 6px;" text="Add">
          <font>

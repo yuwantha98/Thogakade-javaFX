@@ -5,7 +5,7 @@ import model.Customer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DBConnection {
+public class  DBConnection {
 
     private static DBConnection instance;
     private List<Customer> connection;
