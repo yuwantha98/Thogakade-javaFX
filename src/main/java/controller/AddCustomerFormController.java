@@ -1,7 +1,6 @@
 package controller;
 
 import com.jfoenix.controls.JFXTextField;
-import db.DBConnection;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -10,14 +9,12 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
-import model.Customer;
 
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.List;
 import java.util.ResourceBundle;
 
 public class AddCustomerFormController implements Initializable {
@@ -52,8 +49,8 @@ public class AddCustomerFormController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         ObservableList<String> titles = FXCollections.observableArrayList();
-        titles.add("Mr. ");
-        titles.add("Miss. ");
+        titles.add("Mr ");
+        titles.add("Miss ");
 
         cmbTitle.setItems(titles);
     }
